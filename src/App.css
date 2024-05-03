@@ -1,0 +1,69 @@
+.app {
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #999;
+}
+
+.game {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game-info {
+  margin: auto;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+
+}
+
+.square:focus {
+  outline: none;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-board>div {
+  flex: 0 0 33.333%;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
